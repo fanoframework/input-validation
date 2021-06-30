@@ -1,0 +1,39 @@
+#------------------------------------------------------------
+# [[APP_NAME]] ([[APP_URL]])
+#
+# @link      [[APP_REPOSITORY_URL]]
+# @copyright Copyright (c) [[COPYRIGHT_YEAR]] [[COPYRIGHT_HOLDER]]
+# @license   [[LICENSE_URL]] ([[LICENSE]])
+#--------------------------------------------------------------
+
+#----------------------------------------------
+# User configuration defines that applies to both
+# development and production environment
+# Please see Free Pascal Documentation for available
+# compiler configurations
+#----------------------------------------------
+
+#----------------------------------------------
+# Add $DEFINE LIBMICROHTTPD
+# Link with libmicrohttpd
+#----------------------------------------------
+#-dLIBMICROHTTPD
+
+#----------------------------------------------
+# Add $DEFINE LIBCURL
+# Link with libcurl
+#----------------------------------------------
+#-dLIBCURL
+
+#----------------------------------------------
+# Add $DEFINE USE_INDY
+# Use Indy library with Fano Framework
+#----------------------------------------------
+#-dUSE_INDY
+
+#----------------------------------------------
+# Add $DEFINE USE_SYNAPSE
+# Use Synapse library with Fano Framework
+#----------------------------------------------
+#-dUSE_SYNAPSE
+
