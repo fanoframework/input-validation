@@ -20,3 +20,5 @@
     (container['appMiddlewares'] as IMiddlewareList)
         .add(container['verifyCsrfToken'] as IMiddleware);
 
+
+container.add('home.validation.rule', THomeValidatorFactory.create());
