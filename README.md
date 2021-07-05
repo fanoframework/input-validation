@@ -1,6 +1,6 @@
-# SCGI Fano Web Framework Skeleton Application
+# Input validation example Fano Framework web application
 
-[SCGI](https://python.ca/scgi/protocol.txt) web application skeleton using Fano Framework, Pascal web application framework
+[SCGI](https://python.ca/scgi/protocol.txt) web application skeleton using Fano Framework, Pascal web application framework that demonstrates input validation in Fano Framework.
 
 This project is generated using [Fano CLI](https://github.com/fanoframework/fano-cli)
 command line tools to help scaffolding web application using Fano Framework.
@@ -19,14 +19,14 @@ command line tools to help scaffolding web application using Fano Framework.
 ### TLDR
 Make sure all requirements are met. Run
 ```
-$ git clone https://your-repo-hostname/fano-app.git --recursive
+$ git clone https://github.com/fanoframework/input-validation.git --recursive
 $ cd fano-app
 $ ./tools/config.setup.sh
 $ ./build.sh
-$ sudo fanocli --deploy-scgi=fano-app.fano
+$ sudo fanocli --deploy-scgi=validation.fano
 $ ./bin/app.cgi
 ```
-Open internet browser and go to `http://fano-app.fano`. You should see application.
+Open internet browser and go to `http://validation.fano`. You should see application shows you error about missing parameter. Supply required parameters and validation errors are gone.
 
 ### Free Pascal installation
 
@@ -38,7 +38,7 @@ If you see something like `Free Pascal Compiler version 3.0.4`,  you are good to
 
 Clone this repository
 
-    $ git clone https://your-repo-hostname/fano-app.git --recursive
+    $ git clone https://github.com/fanoframework/input-validation.git --recursive
 
 `--recursive` is needed so git also pull [Fano](https://github.com/fanoframework/fano) repository.
 
